@@ -1,0 +1,114 @@
+*{
+    
+  padding:0px;
+  /* background-color:gray; */
+ 
+  
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1060&t=st=1664618673~exp=1664619273~hmac=860c9bed238452a971e21f5257a751e3c2ef33002f701da7b843d2f4dbbab319");
+  background-size: cover;
+  /* overflow: hidden; */
+
+ 
+}
+
+
+
+.login
+
+{
+
+  border: 5px dashed #a8497f;
+  /* border-style: inset; */
+  /* float: right; */
+  margin-top: 170px;
+  /* background-color:white; */
+  height: 360px;
+
+  /* width: 40em; */
+  padding: 30px;
+  margin-right: 20px;
+  /* border-radius: 25px; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* margin-top: 40; */
+}
+
+#uname{
+
+  background-color: #DDDDDD;
+  /* border-radius: 50px; */
+  /* color: #DDDDDD; */
+  
+}
+
+#password{
+
+  background-color: #DDDDDD;
+  /* color: #DDDDDD; */
+  
+}
+
+.fontcolor{
+  /* color: #6464b8; */
+    color: #a8497f;
+}
+
+/* a{
+
+} */
+
+.button{
+  /* border: 3px solid #7A7BF4; */
+   border: 3px solid #a8497f;
+  background-color: #a8497f;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  /* margin-bottom: 20px; */
+  width: 802px;
+  height: 37px;
+  font-size: 20px;
+}
+
+.button:hover{
+  /* border: 3px solid #3f3f9b;
+  background-color: #3f3f9b; */
+ border: 3px solid #733357;
+  background-color: #733357;
+
+
+}
+
+.errorMsg{
+  position: absolute;
+  top:-100%;
+  left:50%;
+  width:40%;
+  padding: 0.5% 5%;
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+  border-radius: 20px;
+  z-index: 2000;
+  text-align: right !important;
+} 
+ .errorMsg::before{
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid rgba(0, 0, 0, 0.753);
+  position: absolute;
+  bottom:-54%;
+  left:67%;
+  z-index: 2000;
+}
+.errorMsg.hidden{
+  display: none;
+}
+
+
+
